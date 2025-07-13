@@ -23,5 +23,6 @@ spec:
     spec:
       containers:
       - name: rabbitmq
+        #image: rabbitmq
         image: "{{ .Values.deployment.imageURL}}:{{ .Values.deployment.imageVersion}}"
         imagePullPolicy: Always
