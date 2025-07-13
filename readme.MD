@@ -21,11 +21,11 @@ aws ecr get-login-password --region us-east-1 | docker login --username AWS --pa
 ```
 * Build rabbitmq image.
 ```
-docker build -t 484907532817.dkr.ecr.us-east-1.amazonaws.com/roboshop/dev/rabbitmq:v1.0.2 .
+docker build -t 484907532817.dkr.ecr.us-east-1.amazonaws.com/roboshop/dev/rabbitmq:v1.1.2 .
 ```
 * Push image
 ```
-docker push 484907532817.dkr.ecr.us-east-1.amazonaws.com/roboshop/dev/rabbitmq:v1.0.2
+docker push 484907532817.dkr.ecr.us-east-1.amazonaws.com/roboshop/dev/rabbitmq:v1.1.2
 ```
 * Now install using Helm. move to helm directory
 ```
